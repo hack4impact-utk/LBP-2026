@@ -1,0 +1,20 @@
+#moveBtn {
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+#yesBtn {
+  position: absolute;
+  left: 50vw;
+  top: 60vh;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+}
+#h1 {
+    position: absolute;
+    left: 30vw;
+    top: 20vh;
+    font-size: 5rem;
+}
