@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Changer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card" id="card">
+    <h1>Mood Changer</h1>
+    <div class="emoji" id="emoji">😐</div>
+    <p class="label" id="label">Neutral</p>
+
+    <input type="text" id="moodInput" placeholder="Type how you feel...">
+
+    <div class="buttons">
+      <button class="btn" data-mood="happy">Happy</button>
+      <button class="btn" data-mood="sad">Sad</button>
+      <button class="btn" data-mood="angry">Angry</button>
+      <button class="btn" data-mood="calm">Calm</button>
+      <button class="btn" data-mood="excited">Excited</button>
+    </div>
+
+    <button class="btn reset" id="resetBtn">Reset</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
